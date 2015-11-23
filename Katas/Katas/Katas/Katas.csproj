@@ -180,6 +180,8 @@
     <Content Include="Scripts\App\FizzBuzz\.test\FizzBuzz.espect.js" />
     <Content Include="Scripts\App\FizzBuzz\LibreriaCalculo.js" />
     <Content Include="Scripts\App\FizzBuzz\FizzBuzz.js" />
+    <Content Include="Scripts\App\User6\user.spects.js" />
+    <Content Include="Scripts\App\User6\user.js" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />

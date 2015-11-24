@@ -9,16 +9,34 @@ describe('Tests del fichero FizzBuzz', function () {
             expect(result).toEqual(dummyParameter);
         });
 
+        it('Envio 2 recibo 2', function () {
+            var dummyParameter = 2,
+                result = calcular(dummyParameter);
+            expect(result).toEqual(dummyParameter);
+        });
+
         it('Envio 3 recibo Fizz', function () {
             var dummyParameter = 3,
                 result = calcular(dummyParameter);
             expect(result).toEqual("Fizz");
         });
 
+        it('Envio 4 recibo 4', function () {
+            var dummyParameter = 4,
+                result = calcular(dummyParameter);
+            expect(result).toEqual(dummyParameter);
+        });
+
         it('Envio 5 recibo Buzz', function () {
             var dummyParameter = 5,
                 result = calcular(dummyParameter);
             expect(result).toEqual("Buzz");
+        });
+
+        it('Envio 6 recibo Fizz', function () {
+            var dummyParameter = 6,
+                result = calcular(dummyParameter);
+            expect(result).toEqual("Fizz");
         });
 
         it('Envio 15 recibo FizzBuzz', function () {
@@ -29,10 +47,10 @@ describe('Tests del fichero FizzBuzz', function () {
     });
     describe('tests de la funcion de Calcular2', function () {
         beforeEach(function () {
-            validar = getMockValidacion();
+            validar = geFakeValidacion();
         });
 
-        function getMockValidacion() {
+        function geFakeValidacion() {
             return {
                 isValid: function () {
                     return true;
@@ -50,6 +68,12 @@ describe('Tests del fichero FizzBuzz', function () {
 
         it('Envio 1 recibo 1', function () {
             var dummyParameter = 1,
+                result = calcular2(dummyParameter);
+            expect(result).toEqual(dummyParameter);
+        });
+
+        it('Envio 2 recibo 2', function () {
+            var dummyParameter = 2,
                 result = calcular2(dummyParameter);
             expect(result).toEqual(dummyParameter);
         });
@@ -74,6 +98,12 @@ describe('Tests del fichero FizzBuzz', function () {
 
             expect(result).toEqual("Fizz");
         });
+        
+        it('Envio 4 recibo 4', function () {
+            var dummyParameter = 4,
+                result = calcular2(dummyParameter);
+            expect(result).toEqual(dummyParameter);
+        });
 
         it('Envio 5, no se llama a la funcion de ejecutar de Fizz y si se llama a la de Buzz', function () {
             var dummyParameter = 5,
@@ -86,10 +116,17 @@ describe('Tests del fichero FizzBuzz', function () {
             expect(libreria.tipos.fizz.ejecutar).not.toHaveBeenCalled();
             expect(libreria.tipos.buzz.ejecutar).toHaveBeenCalled();
         });
+
         it('Envio 5 recibo Buzz', function () {
             var dummyParameter = 5,
                 result = calcular2(dummyParameter);
             expect(result).toEqual("Buzz");
+        });
+
+        it('Envio 6 recibo Fizz', function () {
+            var dummyParameter = 6,
+                result = calcular2(dummyParameter);
+            expect(result).toEqual("Fizz");
         });
 
         it('Envio 15 recibo FizzBuzz', function () {

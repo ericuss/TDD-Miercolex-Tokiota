@@ -178,10 +178,9 @@
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
     <Content Include="Scripts\App\FizzBuzz\.test\FizzBuzz.espect.js" />
+    <Content Include="Scripts\App\FizzBuzz\.test\LibreriaCalculo.spect.js" />
     <Content Include="Scripts\App\FizzBuzz\LibreriaCalculo.js" />
     <Content Include="Scripts\App\FizzBuzz\FizzBuzz.js" />
-    <Content Include="Scripts\App\User6\user.spects.js" />
-    <Content Include="Scripts\App\User6\user.js" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
@@ -241,6 +240,9 @@
     <Content Include="fonts\glyphicons-halflings-regular.eot" />
     <Content Include="packages.config" />
     <None Include="Project_Readme.html" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{82A7F48D-3B50-4B1E-B82E-3ADA8210C358}" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

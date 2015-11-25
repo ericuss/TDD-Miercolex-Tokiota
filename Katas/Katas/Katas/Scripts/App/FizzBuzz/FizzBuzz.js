@@ -20,31 +20,7 @@ function calcular(valor) {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/*
 var libreria = new libreriaCalculo();
 function calcular2(valor) {
     var self = this;
@@ -54,3 +30,4 @@ function calcular2(valor) {
     }
     return valor;
 }
+*/

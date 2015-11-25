@@ -45,6 +45,7 @@ describe('Tests del fichero FizzBuzz', function () {
             expect(result).toEqual("FizzBuzz");
         });
     });
+    /*
     describe('tests de la funcion de Calcular2', function () {
         beforeEach(function () {
             validar = geFakeValidacion();
@@ -135,4 +136,5 @@ describe('Tests del fichero FizzBuzz', function () {
             expect(result).toEqual("FizzBuzz");
         });
     });
+    */
 });

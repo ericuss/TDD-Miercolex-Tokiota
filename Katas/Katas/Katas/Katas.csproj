@@ -177,10 +177,14 @@
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
-    <Content Include="Scripts\App\FizzBuzz\.test\FizzBuzz.espect.js" />
+    <Content Include="Scripts\App\FizzBuzz\.test\FizzBuzz.spect.js" />
     <Content Include="Scripts\App\FizzBuzz\.test\LibreriaCalculo.spect.js" />
     <Content Include="Scripts\App\FizzBuzz\LibreriaCalculo.js" />
     <Content Include="Scripts\App\FizzBuzz\FizzBuzz.js" />
+    <Content Include="Scripts\App\test\.test\fizzbuzz.spect.js" />
+    <Content Include="Scripts\App\test\FizzBuzz.js" />
+    <Content Include="Scripts\App\_\.test\FizzBuzz.Spec.js" />
+    <Content Include="Scripts\App\_\FizzBuzz.js" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
